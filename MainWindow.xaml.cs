@@ -275,8 +275,8 @@ if (action == ActionState.Edit)
                     //instantiem Customer entity
                     inventory = new Inventory()
                     {
-                        Color = makeTextBox.Text.Trim(),
-                        Make = colorTextBox.Text.Trim()
+                        Color = colorTextBox.Text.Trim(),
+                        Make = makeTextBox.Text.Trim()
                     };
                     //adaugam entitatea nou creata in context
                     ctx.Inventories.Add(inventory);
